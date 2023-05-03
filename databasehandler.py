@@ -10,7 +10,7 @@ def lambda_handler(event,context):
             return taxi_location_data
         else:
             return None
-        #pass
+        #pass Coding later
     if(event['requestType']=="taxi-location-read"):
         pass
 
