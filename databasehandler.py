@@ -24,3 +24,9 @@ def lambda_handler(event,context):
         #pass
     if(event['requestType']=="user-location-read"):
         pass
+
+    if(event['requestType']=="taxi-registration"):
+        pass
+
+    if(event['requestType']=="user-registration"):
+        pass
